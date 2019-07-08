@@ -43,6 +43,6 @@ def getComments(URL):
             print(comments[i].text)
     return comments
 
-URL = input("Enter The URL Of The Product : ")
+URL = input("Enter The URL(From Flipcart) Of The Product : ")
 reviews = getComments(URL)
 generate_pic()
